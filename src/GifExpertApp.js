@@ -4,12 +4,7 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['Bad Bunny']);
-   /*  const handleAdd = () => {
-         setCategories([...categories, 'Pokemon']);
-        setCategories(cats => [...cats, 'Pokemon']);
-    } */
-
+    const [categories, setCategories] = useState(['No Face']);
     return (
         <>
         <h2>GifExpertApp</h2>
